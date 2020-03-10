@@ -74,11 +74,17 @@ jobs:
         - checkName: portworx
           displayName: Portworx
           os: linux
+        - checkName: proxysql
+          displayName: ProxySQL
+          os: linux
         - checkName: reboot_required
           displayName: Reboot Required
           os: linux
         - checkName: redis_sentinel
           displayName: Redis Sentinel
+          os: linux
+        - checkName: resin
+          displayName: Resin
           os: linux
         - checkName: riak_repl
           displayName: Riak MDC Replication
